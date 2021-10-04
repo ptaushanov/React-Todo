@@ -1,6 +1,42 @@
-# Getting Started with Create React App
+# React-Todo
+
+### Basic ToDo app created with React
+Implements core React concepts and practices
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Built With:
+* [Visual Studio Code](https://code.visualstudio.com/) - *The IDE used*
+
+## Made with:
+
+* [React JS](https://reactjs.org/)
+* [React Router](https://reactrouter.com/)
+* [json-server](https://www.npmjs.com/package/json-server)
+* [NodeJS](https://nodejs.org/en/)
+
+## Authors:
+
+* **Petar Taushanov** - [ptaushanov](https://github.com/ptaushanov)
+
+## Running the project
+
+#### Running the front-end
+```
+npm run start
+```
+
+Default port is set to 3000. 
+
+#### Running the back-end
+In the root directory is located the `data` directory where a file named `db.json` is located. That will be the database.
+We will be using `json-server` module to update the `db.json` file and handle the requests from the front-end 
+
+To start `json-server` run:
+```
+npx json-server -w "./data/db.json" -p 8000
+```
+Port of the back-end server would be 8000
 
 ## Available Scripts
 
@@ -68,3 +104,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## License
+
+This project is licensed under the MIT License - *see
+the* [LICENSE.md](https://github.com/ptaushanov/ConsoleChat/blob/master/LICENSE) *file for details.*
