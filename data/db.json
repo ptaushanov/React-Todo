@@ -1,0 +1,34 @@
+{
+  "todos": [
+    {
+      "title": "Clean up the room",
+      "description": "Vaccume clean the bedroom, and also clean the windows.",
+      "importance": "ASAP",
+      "id": 1
+    },
+    {
+      "title": "Get a cat",
+      "description": "Go to the pet store and find a brown fluffy cat.",
+      "importance": "Not so important",
+      "id": 3
+    },
+    {
+      "title": "Buy milk",
+      "description": "Buy milk so that you can eat cocho balls for breakfast.",
+      "importance": "Verry important",
+      "id": 4
+    },
+    {
+      "title": "Make a sandwitch",
+      "description": "1 cup mayonnaise\n⅛ teaspoon ground black pepper\n⅛ teaspoon garlic powder\n⅛ teaspoon celery salt\n4 cups chopped leftover grilled chicken\n2 celery stalks, sliced\n½ cup sweetened dried cranberries\n⅔ cup salted cashews\n8 slices bread, toasted\n4 tablespoons mayonnaise\n4 large red leaf lettuce leaves\n1 ripe tomato, sliced ",
+      "importance": "Low",
+      "id": 5
+    },
+    {
+      "title": "Go runing",
+      "description": "Runners used to drink champagne as an energy drink\n\nIt may seem crazy and dangerous to runners today, but back in Victorian times it was thought that alcohol was a performance enhancer. It is thought that this tradition dates all the way back to Ancient Greece and China. Incredibly, they would also take drugs such as heroin and cocaine to enhance their performance, something that is unthinkable today. \n\nWe now know that alcohol is a diuretic and can cause dehydration, meaning it is the complete opposite of what you'd want while running an endurance race, especially in hot weather. ",
+      "importance": "Verry low",
+      "id": 6
+    }
+  ]
+}

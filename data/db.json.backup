@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "title": "Clean up the room",
+      "description": "Vaccume clean the bedroom, and also clean the windows.",
+      "importance": "ASAP",
+      "id": 1
+    },
+    {
+      "title": "Trow out the garbage",
+      "description": "Zip up the bag and trow it away so that the gypsies can take it early this Friday",
+      "importance": "Not so important",
+      "id": 2
+    },
+    {
+      "title": "Get a cat",
+      "description": "Go to the pet store and find a brown fluffy cat.",
+      "importance": "Not so important",
+      "id": 3
+    },
+    {
+      "title": "Buy milk",
+      "description": "Buy milk so that you can eat cocho balls for breakfast.",
+      "importance": "Verry important",
+      "id": 4
+    }
+  ]
+}
