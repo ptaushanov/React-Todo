@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { HashRouter as Router, Route, Switch } from 'react-router-dom'
 import Create from "./Create"
 import Home from "./Home"
 import Navbar from "./Navbar"
@@ -8,21 +8,21 @@ function App() {
   return (
     <Router>
       <div className="App">
-          <Navbar />
-          <div className="content">
+        <Navbar />
+        <div className="content">
           <Switch>
-            <Route exact path = "/">
-                <Home />
+            <Route exact path="/">
+              <Home />
             </Route>
-            <Route path = "/create">
-                <Create/>
+            <Route path="/create">
+              <Create />
             </Route>
             <Route path="/details/:id">
-                <TaskDetails />
+              <TaskDetails />
             </Route>
           </Switch>
-          </div>
-          
+        </div>
+
       </div>
     </Router>
   );
