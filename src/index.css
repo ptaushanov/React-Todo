@@ -30,6 +30,7 @@ body {
 
 .home {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 0px 25%;
 }
@@ -37,6 +38,15 @@ body {
 .home .event {
   margin-top: 1rem;
   color: #fe136e;
+}
+
+.note {
+  color: #fe136e;
+  padding: 1rem 0;
+  text-align: center;
+  border-top: 2px solid #fe136e;
+  border-bottom: 2px solid #fe136e;
+  margin-bottom: 1rem;
 }
 
 .todo-element {
