@@ -3,7 +3,7 @@
 ### Basic ToDo app created with React
 
 Implements core React concepts and practices Inspired by the Net Ninja's React
-tutorial This is a simple ToDo app that allows you to add and delete tasks.
+tutorial. It is a simple ToDo app that allows you to add and delete tasks.
 
 This project was bootstrapped with
 [Create React App](https://github.com/facebook/create-react-app).
